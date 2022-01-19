@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Menu Hamburguer</title>
+  </head>
+  <body>
+    <h1>Mude a largura e altura da tela</h1>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#">Sobre</a>
+        <a href="#">Servicos</a>
+        <a href="#">Clientes</a>
+        <a href="#">Contato</a>
+      </div>
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span class="hamburguer" onclick="openNav()">&#9776;</span>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
